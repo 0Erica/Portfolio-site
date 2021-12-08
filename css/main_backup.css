@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Work+Sans&display=swap');
+
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border;
+}
+
+
+body {
+ background-color: #000000;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+div.title {
+  font-family: 'Ubuntu';
+  color: white;
+  font-size: 37.5px;
+  border: solid;
+  border-color: white;
+  width: 465px;
+}
+
+div.subtitle {
+  font-family: 'Oxygen';
+  color: white;
+  font-size: 20px;
+  left: 183px;
+  border: solid;
+  border-color: green;
+}
+
+div.menu {
+  position: relative;
+  left: 193px;
+  font-family: 'Oxygen';
+  background-color: white;
+  color: white;
+  border: solid;
+  border-color: white;
+  width: 272px;
+}
+
+div.index-description {
+  font-family: 'Oxygen';
+  color: white;
+  background-color: red;
+  width: 400px;
+  font-size: 20px;
+  border: solid;
+  border-color: pink;
+}
+
+div.stu-container {
+  width: 1050px;
+  border: solid;
+  border-color: orange;
+
+}
+
+div.student {
+	  vertical-align: top;
+	  display: inline-block;
+	  /*left: auto; added this*/
+	  margin: 10px;
+	  width: 295px;
+    height: auto;
+	  text-align: left;
+	  font-family: 'Oxygen';
+	  font-size: 14px;
+    background-color: white;
+    color: white;
+    padding: 10px;
+}
+
+div.about {
+  position: relative;
+  left: 193px;
+  font-family: 'Oxygen';
+  color: CornflowerBlue;
+  background-color: white;
+  width: 272px;
+  font-size: 15px;
+  border: solid;
+  border-color: white;
+}
+
+div.research {
+  position: relative;
+  font-family: 'Oxygen';
+  color: CornflowerBlue;
+  background-color: white;
+  width: 465px;
+  font-size: 15px;
+  border: solid;
+  border-color: white;
+}
+
+div.examples {
+  vertical-align: top;
+  display: inline-block;
+  /*left: auto; added this*/
+  margin: 10px;
+  width: 510px;
+  height: auto;
+  background-color: white;
+  color: CornflowerBlue;
+  padding: 10px;
+}
+
+body {
+  background-color: CornflowerBlue;
+}
+
+mark.one {
+  color: white;
+  background-color: CornflowerBlue;
+}
+
+mark.two {
+  color: white;
+  background-color: CornflowerBlue;
+}
+
+mark.three {
+  color: white;
+  background-color: CornflowerBlue;
+}
+
+mark.current {
+  color: white;
+  background-color: CornflowerBlue;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+
+a:link {
+  text-decoration: none;
+  color: CornflowerBlue;
+}
+
+a:link.two {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+img {
+  object-fit: cover;
+}
+
+img.one {
+  width: 290px;
+  height: 290px;
+  border: solid 1px;
+  border-color: grey;
+}
+
+img.two {
+  width: 100px;
+  height: 100px;
+  padding: 0px;
+  margin: 0px;
+}
+
+img.three {
+  width: 500px;
+  height: 500px;
+  padding: 0px;
+  margin: 0px;
+  border: solid 1px;
+  border-color: CornflowerBlue;
+}
+
+div.Etext {
+  margin: 10px;
+  font-family: 'Helvetica';
+  color: white;
+  width: 600px;
+}
+
+div.examples-erica {
+  vertical-align: top;
+  display: inline-block;
+  /*left: auto; added this*/
+  margin: 10px;
+  width: auto;
+  height: auto;
+  background-color: white;
+  color: white;
+  padding: 10px;
+}
+
+img.img-erica {
+  width: auto;
+  height: 510px;
+  object-fit: contain;
+  background-color: white;
+  border: solid 1px;
+  border-color: CornflowerBlue;
+}
+
+
+/* responsive styling for mobile browsing */
+
+/* when screen is 600px or less apply changes */
+@media only screen and (max-width: 600px) {
+
+  /* remove .gif background set background color to purple */
+  body {
+    background-image: none !important;
+    background-color: CornflowerBlue !important;
+  }
+
+}
